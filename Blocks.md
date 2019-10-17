@@ -1,6 +1,6 @@
 This is the list of current EEU blocks their image, color, name and EEU Protocol ID.
 
-### <a id="model-npcid">NPC</a>
+### <a id="model-blocks">Blocks</a>
 
 | Block Image  | Block Color | Block Name | Block ID  
 | ---- | ----- | ----------  | ---------- | ----------  
