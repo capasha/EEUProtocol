@@ -55,7 +55,7 @@ This is the list of current EEU blocks their image, color, name and EEU Protocol
 | ![glassBlue](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassBlue.png)  | `8687847`   | `glassBlue` | `52` 
 | ![glassPurple](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassPurple.png)  | `11897320`   | `glassPurple` | `53` 
 | ![glassPink](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassPink.png)  | `15043305`   | `glassPink` | `54` 
-| ![solid_black](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/solid_black.png)  | `-2`   | `solid_black` | `12` 
-| ![coin](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/yellowCoin.png)  | `-1`   | `coin` | `11` 
-| ![spawn](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/spawnpoint.png)  | `-1`   | `spawn` | `44` 
-| ![godmode](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/godmode.png)  | `-1`   | `godmode` | `17` 
+| ![solid_black](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/solid_black.png)  | `Transparency`   | `solid_black` | `12` 
+| ![coin](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/yellowCoin.png)  | `Transparency`   | `coin` | `11` 
+| ![spawn](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/spawnpoint.png)  | `Transparency`   | `spawn` | `44` 
+| ![godmode](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/godmode.png)  | `Transparency`   | `godmode` | `17` 
