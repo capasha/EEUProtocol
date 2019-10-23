@@ -59,3 +59,12 @@ This is the list of current EEU blocks their image, color, name and EEU Protocol
 | ![coin](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/yellowCoin.png)  | `Transparency`   | `coin` | `11` 
 | ![spawn](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/spawnpoint.png)  | `Transparency`   | `spawn` | `44` 
 | ![godmode](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/godmode.png)  | `Transparency`   | `godmode` | `17` 
+
+
+### Blocks with current colors  
+
+![BasicColors](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/basicColors.png)  
+![StoneColors](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/stoneColors.png)  
+![BeveledColors](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/beveledColors.png)  
+![MetalColors](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/metalColors.png) 
+![GlassColors](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassColors.png)  
