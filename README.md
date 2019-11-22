@@ -8,13 +8,24 @@ Protocol Update: 2019-11-22
 - [Receive Messages from Client](#receive-messages-client)
   - [SelfInfo](#rm-selfinfo)
 - [Receive Messages from Connection](#receive-messages-conn)
+  - [CanEdit](#rm-canedit)
+  - [CanGod](#rm-cangod)
+  - [Chat](#rm-chat)
+  - [ChatInfo](#rm-chatinfo)
+  - [ChatOld](#rm-chatold)
+  - [Clear](#rm-clear)
   - [RoomConnect](#rm-roomconnect)
   - [PlaceBlock](#rm-placeblock)
     - [Sign](#rm-placesign)
   - [PlayerAdd](#rm-playeradd)
   - [PlayerExit](#rm-playerexit)
+  - [PlayerGod](#rm-playergod)
   - [PlayerJoin](#rm-playerjoin)
   - [PlayerMove](#rm-playermove)
+  - [PlayerSmiley](#rm-playersmiley)
+  - [ZoneCreate](#rm-zonecreate)
+  - [ZoneEdit](#rm-zoneedit)
+  - [ZoneDelete](#rm-zonedelete)
 - [Send Messages Connection](#send-messages)
   - [test](#sm-test)
 
@@ -24,33 +35,91 @@ Occurs when you read SelfInfo
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `0`  | `String`    | Nickname      	    | Your nickname.
-| `1`  | `Integer`   | MaxEnergy          | Your max energy.
-| `2`  | `Integer`   | Stardust		        | Your stardust.
-| `3`  | `Integer`   | Jewels             | Your jewels.
-| `4`  | `Integer`   | Worlds             | How many worlds you have.
-| `...`  | `Object`  | World Info         | Read world information.
+| `0`  | `String`    | Nickname      	    | Your nickname
+| `1`  | `Integer`   | MaxEnergy          | Your max energy
+| `2`  | `Integer`   | Stardust		        | Your stardust
+| `3`  | `Integer`   | Jewels             | Your jewels
+| `4`  | `Integer`   | Worlds             | How many worlds you have
+| `...`  | `Object`  | World Info         | Read world information
 
 Example: loop through Worlds, then read through each object.  
 This will return: WorldID, WorldTitle, WorldPlays.
+
+### <a id="rm-canedit">"CanEdit"</a>
+Occurs when a player's edit is modified
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `Boolean`   | Can Edit           | Whether the player can edit or not
+
+### <a id="rm-cangod">"CanEdit"</a>
+Occurs when a player's god mode is modified
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `Boolean`   | Can God            | Whether the player can toggle god mode or not
+
+### <a id="rm-chat">"Chat"</a>
+Occurs when a chat message is sent
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `String`    | Text               | The chat message
+
+### <a id="rm-chatinfo">"ChatInfo"</a>
+Occurs when a chat response is received from using a command.
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `String`    | Text               | The chat message
+
+### <a id="rm-chatold">"ChatOld"</a>
+Occurs during RoomConnect. The five most recent messages prior to connecting are received.
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `String`    | Username           | The player's username
+| `1`  | `String`    | Text               | The chat message
+
+### <a id="rm-chatpmfrom">"ChatPMFrom"</a>
+Occurs when you receive a private message.
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The sender's ID
+| `1`  | `String`    | Text               | The chat message
+
+### <a id="rm-chatpmto">"ChatPMTo"</a>
+Occurs when you send a private message.
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The receiver's ID
+| `1`  | `String`    | Text               | The chat message
+
+### <a id="rm-clear">"Clear"</a>
+Occurs when `/clear` is used
 
 ### <a id="rm-roomconnect">"RoomConnect"</a>
 Occurs when you connect to a world
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `0`  | `Integer`   | ID                 | Your ID.
-| `1`  | `String`    | Owner Username     | The world owner's username.
+| `0`  | `Integer`   | ID                 | Your ID
+| `1`  | `String`    | Owner Username     | The world owner's username
 | `2`  | `???`       | ???                | ???
 | `3`  | `???`       | ???                | ???
-| `4`  | `Integer`   | X                  | Your X coordinate.
-| `5`  | `Integer`   | Y                  | Your Y coordinate.
-| `6`  | `String`    | Title              | The world's title.
-| `7`  | `String`    | Username           | Your username.
+| `4`  | `Integer`   | X                  | Your X coordinate
+| `5`  | `Integer`   | Y                  | Your Y coordinate
+| `6`  | `String`    | Title              | The world's title
+| `7`  | `String`    | Username           | Your username
 | `8`  | `???`       | ???                | ???
-| `9`  | `Integer`   | World Width        | The world's width.
-| `10` | `Integer`   | World Height       | The world's height.
-| `11 : MessageCount - 5` | `Object[]` | World Data      | The world data.
+| `9`  | `Integer`   | World Width        | The world's width
+| `10` | `Integer`   | World Height       | The world's height
+| `11 : MessageCount - 5` | `Object[]` | World Data      | The world data
 | `MessageCount - 4` | `Integer` | Time Offset  | ???
 | `MessageCount - 3` | `Boolean` | Can Edit     | Whether you can edit or not
 | `MessageCount - 2` | `Boolean` | Is Mod       | Whether you are a mod or not
@@ -112,8 +181,8 @@ Occurs when initializing current players in the world
 | `28` | `Integer`   | X                  | The player's X coordinate
 | `29` | `Integer`   | Y                  | The player's Y coordinate
 | `30` | `Boolean`   | Pressed Space      | Whether the player pressed space
-| `31` | `Double`    | Space Timestamp          | When the player pressed space
-| `32` | `Boolean`   | God Mode           | Whether the player is in god mode or not
+| `31` | `Double`    | Space Timestamp    | When the player pressed space
+| `32` | `Boolean`   | Can God            | Whether the player can toggle god mode or not
 | `33` | `Boolean`   | Can Edit           | Whether the player can edit or not
 | `34` | `Boolean`   | Is Mod             | Whether the player is a mod or not
 
@@ -125,6 +194,14 @@ Occurs when a player leaves the world
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The player's ID
+
+### <a id="rm-playergod">"PlayerGod"</a>
+Occurs when a player toggles god mode
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `Boolean`   | God Mode           | Whether the player is in god mode or not
 
 ### <a id="rm-playerjoin">"PlayerJoin"</a>
 Occurs when a player joins the world
@@ -170,30 +247,38 @@ Occurs when a player moves
 
 Indexes `12` to `17` contain the `X` and `Y` coordinates (in order) of the blocks the player touch during movement.
 
+<a id="rm-playersmiley">"PlayerSmiley"</a>
+Occurs when a player changes their smiley
 
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `Integer`   | Smiley ID          | The smiley's ID
 
+<a id="rm-zonecreate">"ZoneCreate"</a>
+Occurs when a zone is created
 
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The zone's ID
 
+<a id="rm-zoneedit">"ZoneEdit"</a>
+Occurs when a zone is edited
 
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The zone's ID
+| `1`  | `Boolean`   | Edit Type          | Whether you are adding or removing zone area
+| `2`  | `Integer`   | X                  | The top left X coordinate of the edit
+| `3`  | `Integer`   | Y                  | The top left Y coordinate of the edit
+| `4`  | `Integer`   | Width              | The width of the edit
+| `5`  | `Integer`   | Height             | The height of the edit
 
+Note that the `X` and `Y` values are not the top left coordinates of the entire zone, but only the edit. Same goes for the width and length.
 
+<a id="rm-zonedelete">"ZoneDelete"</a>
+Occurs when a zone is deleted
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The zone's ID
