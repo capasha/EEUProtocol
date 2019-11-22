@@ -1,5 +1,5 @@
 # Everybody Edits Universe Messages Protocol
-This repository contains documentation on the EEUniverse protocol(By Jesse) based [Everybody Edits Universe](http://ee-universe.com) API.  
+This repository contains documentation on the EEUniverse protocol (By Jesse) based on [Everybody Edits Universe](http://ee-universe.com) API.  
 Protocol Update: 2019-11-22
 
 ## Table of contents
@@ -214,7 +214,7 @@ Occurs when a player joins the world
 | `3`  | `Double`    | ???                | ???
 | `4`  | `Integer`   | X                  | The player's X coordinate
 | `5`  | `Integer`   | Y                  | The player's Y coordinate
-| `6`  | `Boolean`   | ???                | ???
+| `6`  | `Boolean`   | Can God            | Whether the player can toggle god mode or not
 | `7`  | `Boolean`   | Can Edit           | Whether the player can edit or not
 | `8`  | `Boolean`   | Is Mod             | Whether the player is a mod or not
 
