@@ -247,7 +247,7 @@ Occurs when a player moves
 
 Indexes `12` to `17` contain the `X` and `Y` coordinates (in order) of the blocks the player touch during movement.
 
-<a id="rm-playersmiley">"PlayerSmiley"</a>
+### <a id="rm-playersmiley">"PlayerSmiley"</a>
 Occurs when a player changes their smiley
 
 | ID   | Type        | Name               | Description
@@ -255,14 +255,14 @@ Occurs when a player changes their smiley
 | `0`  | `Integer`   | ID                 | The player's ID
 | `1`  | `Integer`   | Smiley ID          | The smiley's ID
 
-<a id="rm-zonecreate">"ZoneCreate"</a>
+### <a id="rm-zonecreate">"ZoneCreate"</a>
 Occurs when a zone is created
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The zone's ID
 
-<a id="rm-zoneedit">"ZoneEdit"</a>
+### <a id="rm-zoneedit">"ZoneEdit"</a>
 Occurs when a zone is edited
 
 | ID   | Type        | Name               | Description
@@ -276,7 +276,7 @@ Occurs when a zone is edited
 
 Note that the `X` and `Y` values are not the top left coordinates of the entire zone, but only the edit. Same goes for the width and length.
 
-<a id="rm-zonedelete">"ZoneDelete"</a>
+### <a id="rm-zonedelete">"ZoneDelete"</a>
 Occurs when a zone is deleted
 
 | ID   | Type        | Name               | Description
