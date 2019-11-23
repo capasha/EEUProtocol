@@ -1,5 +1,5 @@
 # Everybody Edits Universe Messages Protocol
-This repository contains documentation on the EEUniverse protocol (By Jesse) based on [Everybody Edits Universe](http://ee-universe.com) API.  
+This repository contains documentation on the EEUniverse protocol (By Jesse) based on the [Everybody Edits Universe](http://ee-universe.com) API.  
 Protocol Update: 2019-11-22
 
 ## Table of contents
@@ -224,8 +224,8 @@ Occurs when a player moves
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The player's ID
-| `1`  | `Integer`   | Time               | ???
-| `2`  | `Integer`   | ???                | ???
+| `1`  | `Double`    | Time               | ???
+| `2`  | `Double`    | ???                | ???
 | `3`  | `Integer`   | Horizontal Direction   | The player's horizontal direction
 | `4`  | `Integer`   | Vertical Direction     | The player's vertical direction
 | `5`  | `Double`    | X                  | The player's X coordinate
