@@ -39,7 +39,9 @@ Occurs when you read SelfInfo
 | `1`  | `Integer`   | MaxEnergy          | Your max energy
 | `2`  | `Integer`   | Stardust		        | Your stardust
 | `3`  | `Integer`   | Jewels             | Your jewels
-| `4`  | `Integer`   | Worlds             | How many worlds you have
+| `4`  | `String`    | SantaPlayer        | Santa Player. The player you make the world for.
+| `5`  | `String`    | SantaWorld         | Santa World. I guess the world for the player.
+| `6`  | `Integer`   | Worlds             | How many worlds you have
 | `...`  | `Object`  | World Info         | Read world information
 
 Example: loop through Worlds, then read through each object.  
