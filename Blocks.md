@@ -1,14 +1,9 @@
 This is the list of current EEU blocks their image, hexadecimal color, name and EEU block ID.
 
-### <a id="model-blocks">Blocks</a>
+### <a id="model-blocks">Normal Blocks</a>
 
 | Block Image  | Block Color | Block Name | Block ID
 | ----         | -----       | ---------- | ----------
-| ![empty](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/empty.png)  | `#000000`   | `empty` | `0`  
-| ![gravityLeft](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityLeft.png)  | `#000000`   | `gravityLeft` | `13`   
-| ![gravityUp](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityUp.png)  | `#000000`   | `gravityUp` | `14` 
-| ![gravityRight](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityRight.png)  | `#000000`   | `gravityRight` | `15` 
-| ![gravityDot](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityDot.png)  | `#000000`   | `gravityNone` | `16` 
 | ![basicWhite](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/basicWhite.png)  | `#B4B4B4`   | `basicWhite` | `1` 
 | ![basicGrey](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/basicGrey.png)  | `#707070`   | `basicGrey` | `2` 
 | ![basicBlack](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/basicBlack.png)  | `#343434`   | `basicBlack` | `3` 
@@ -55,6 +50,17 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![glassBlue](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassBlue.png)  | `#8490E7`   | `glassBlue` | `52` 
 | ![glassPurple](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassPurple.png)  | `#B589E8`   | `glassPurple` | `53` 
 | ![glassPink](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassPink.png)  | `#E58AE9`   | `glassPink` | `54` 
+
+
+### <a id="model-blocks">Special Blocks</a>
+
+| Block Image  | Block Color | Block Name | Block ID
+| ----         | -----       | ---------- | ----------
+| ![empty](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/empty.png)  | `#000000`   | `empty` | `0`  
+| ![gravityLeft](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityLeft.png)  | `#000000`   | `gravityLeft` | `13`   
+| ![gravityUp](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityUp.png)  | `#000000`   | `gravityUp` | `14` 
+| ![gravityRight](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityRight.png)  | `#000000`   | `gravityRight` | `15` 
+| ![gravityDot](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityDot.png)  | `#000000`   | `gravityNone` | `16` 
 | ![solid_black](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/solid_black.png)  | `Transparency`   | `solid_black` | `12` 
 | ![woodsigns](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/woodsign.png)  | `Transparency`   | `signWood` | `55` 
 | ![woodsigns](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/redsign.png)  | `Transparency`   | `signRed` | `56` 
@@ -63,7 +69,22 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![coin](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/yellowCoin.png)  | `Transparency`   | `coin` | `11` 
 | ![spawn](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/spawnpoint.png)  | `Transparency`   | `spawn` | `44` 
 | ![godmode](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/godmode.png)  | `Transparency`   | `godmode` | `17` 
+| ![crown](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/crown.png)  | `Transparency`   | `crown` | `?` 
 
+### <a id="model-blocks">Background Blocks</a>
+
+| Block Image  | Block Color | Block Name | Block ID
+| ----         | -----       | ---------- | ----------
+| ![bgBasicWhite](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicWhite.png)  | `#000000`   | `basicWhite` | `?` 
+| ![bgBasicGrey](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicGrey.png)  | `#000000`   | `basicGrey` | `?` 
+| ![bgBasicBlack](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicBlack.png)  | `#000000`   | `basicBlack` | `?` 
+| ![bgBasicRed](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicRed.png)  | `#000000`   | `basicRed` | `?` 
+| ![bgBasicOrange](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicOrange.png)  | `#000000`   | `basicOrange` | `?` 
+| ![bgBasicYellow](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicYellow.png)  | `#000000`   | `basicYellow` | `?` 
+| ![bgBasicGreen](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicGreen.png)  | `#000000`   | `basicGreen` | `?` 
+| ![bgBasicCyan](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicCyan.png)  | `#000000`   | `basicCyan` | `?` 
+| ![bgBasicBlue](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicBlue.png)  | `#000000`   | `basicBlue` | `?` 
+| ![bgBasicPurple](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicPurple.png)  | `#000000`   | `basicPurple` | `?`
 
 ### Blocks with current colors  
 
