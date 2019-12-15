@@ -134,18 +134,19 @@ Occurs when a block is placed
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `0`  | `Integer`   | X                  | The X coordinate
-| `1`  | `Integer`   | Y                  | The Y coordinate
-| `2`  | `Integer`   | ID                 | The block ID
-| `3 : MessageCount - 1`  | `Object[]` | Parameters        | Any additional block parameters
+| `0`  | `Integer`   | Layer              | 0 For background and 1 foreground.
+| `1`  | `Integer`   | X                  | The X coordinate
+| `2`  | `Integer`   | Y                  | The Y coordinate
+| `3`  | `Integer`   | ID                 | The block ID
+| `4 : MessageCount - 1`  | `Object[]` | Parameters        | Any additional block parameters
 
 ### <a id="rm-placesign">"Sign"</a>
 Additional values for placed signs
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `3`  | `String`    | Text               | The sign's text
-| `4`  | `Integer`   | Form               | The sign's orientation
+| `5`  | `String`    | Text               | The sign's text
+| `6`  | `Integer`   | Form               | The sign's orientation
 
 ### <a id="rm-playeradd">"PlayerAdd"</a>
 Occurs when initializing current players in the world
