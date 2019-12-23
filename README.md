@@ -104,14 +104,14 @@ Occurs when you send a private message.
 | `1`  | `String`    | Text               | The chat message
 
 ### <a id="rm-clear">"Clear"</a>
-Occurs when `/clear` is used  
+Occurs when `/clear` is used
 
-### <a id="rm-bgcolor">"BgColor"</a>  
+### <a id="rm-bgcolor">"BgColor"</a>
 Occurs when `/bgcolor hexcolor` is used.
+
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | UintColor          | The Color is sent as uint color.
-
 
 ### <a id="rm-roomconnect">"RoomConnect"</a>
 Occurs when you connect to a world
