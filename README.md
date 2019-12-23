@@ -1,6 +1,7 @@
 # Everybody Edits Universe Messages Protocol
 This repository contains documentation on the EEUniverse protocol (By Jesse) based on the [Everybody Edits Universe](http://ee-universe.com) API.  
-Protocol Update: 2019-11-22
+Protocol Update: 2019-11-22  
+Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the protocol.  
 
 ## Table of contents
 - [Game Information](#game-information)
