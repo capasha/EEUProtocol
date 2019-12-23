@@ -103,7 +103,14 @@ Occurs when you send a private message.
 | `1`  | `String`    | Text               | The chat message
 
 ### <a id="rm-clear">"Clear"</a>
-Occurs when `/clear` is used
+Occurs when `/clear` is used  
+
+### <a id="rm-bgcolor">"BgColor"</a>  
+Occurs when `/bgcolor hexcolor` is used.
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | UintColor          | The Color is sent as uint color.
+
 
 ### <a id="rm-roomconnect">"RoomConnect"</a>
 Occurs when you connect to a world
@@ -118,7 +125,7 @@ Occurs when you connect to a world
 | `5`  | `Integer`   | Y                  | Your Y coordinate
 | `6`  | `String`    | Title              | The world's title
 | `7`  | `String`    | Username           | Your username
-| `8`  | `???`       | ???                | ???
+| `8`  | `Integer`   | Background Color   | The world's background color
 | `9`  | `Integer`   | World Width        | The world's width
 | `10` | `Integer`   | World Height       | The world's height
 | `11 : MessageCount - 5` | `Object[]` | World Data      | The world data
@@ -138,15 +145,24 @@ Occurs when a block is placed
 | `1`  | `Integer`   | X                  | The X coordinate
 | `2`  | `Integer`   | Y                  | The Y coordinate
 | `3`  | `Integer`   | ID                 | The block ID
-| `4 : MessageCount - 1`  | `Object[]` | Parameters        | Any additional block parameters
 
-### <a id="rm-placesign">"Sign"</a>
+### "Portal"
+Additional values for placed portals
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `4`  | `Integer`   | Rotation           | The rotation
+| `5`  | `Integer`   | Id                 | The id
+| `6`  | `Integer`   | Target             | The target
+| `7`  | `Boolean`   | Flipped            | Flipped or not
+
+### "Sign"
 Additional values for placed signs
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `5`  | `String`    | Text               | The sign's text
-| `6`  | `Integer`   | Form               | The sign's orientation
+| `4`  | `String`    | Text               | The sign's text
+| `5`  | `Integer`   | Form               | The sign's orientation
 
 ### <a id="rm-playeradd">"PlayerAdd"</a>
 Occurs when initializing current players in the world

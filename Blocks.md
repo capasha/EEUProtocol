@@ -70,6 +70,7 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![spawn](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/spawnpoint.png)  | `Transparency`   | `spawn` | `44` 
 | ![godmode](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/godmode.png)  | `Transparency`   | `godmode` | `17` 
 | ![crown](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/crown.png)  | `Transparency`   | `crown` | `70` 
+| ![portal](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/portal.png)  | `Transparency`   | `portal` | `59` 
 
 ### <a id="model-blocks">Background Blocks</a>
 
