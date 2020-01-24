@@ -61,6 +61,7 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![gravityUp](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityUp.png)  | `#000000`   | `gravityUp` | `14` 
 | ![gravityRight](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityRight.png)  | `#000000`   | `gravityRight` | `15` 
 | ![gravityDot](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityDot.png)  | `#000000`   | `gravityNone` | `16` 
+| ![gravitySlow](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravitySlow.png)  | `#000000`   | `gravitySlow` | `71` 
 | ![solid_black](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/solid_black.png)  | `Transparency`   | `solid_black` | `12` 
 | ![woodsigns](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/woodsign.png)  | `Transparency`   | `signWood` | `55` 
 | ![woodsigns](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/redsign.png)  | `Transparency`   | `signRed` | `56` 
