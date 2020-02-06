@@ -50,7 +50,16 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![glassBlue](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassBlue.png)  | `#8490E7`   | `glassBlue` | `52` 
 | ![glassPurple](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassPurple.png)  | `#B589E8`   | `glassPurple` | `53` 
 | ![glassPink](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/glassPink.png)  | `#E58AE9`   | `glassPink` | `54` 
-
+| ![tilesWhite](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesWhite.png)  | `#B9B59F`   | `tilesWhite` | `72` 
+| ![tilesGrey](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesGrey.png)    | `#92918D`   | `tilesGrey`  | `73` 
+| ![tilesBlack](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesBlack.png)  | `#696864`   | `tilesBlack` | `74` 
+| ![tilesRed](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesRed.png)  | `#AE6F6D`   | `tilesRed` | `75` 
+| ![tilesOrange](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesOrange.png)  | `#AE856D`   | `tilesOrange` | `76` 
+| ![tilesYellow](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesYellow.png)  | `#AE9B6E`   | `tilesYellow` | `77` 
+| ![tilesGreen](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesGreen.png)  | `#7FA775`   | `tilesGreen` | `78` 
+| ![tilesCyan](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesCyan.png)  | `#78A69B`   | `tilesCyan` | `79` 
+| ![tilesBlue](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesBlue.png)  | `#778AA5`   | `tilesBlue` | `80` 
+| ![tilesPurple](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/tilesPurple.png)  | `#8C79A8`   | `tilesPurple` | `81` 
 
 ### <a id="model-blocks">Special Blocks</a>
 
@@ -87,6 +96,16 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![bgBasicCyan](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicCyan.png)  | `#1A5E66`   | `bgBasicCyan` | `67` 
 | ![bgBasicBlue](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicBlue.png)  | `#1A3866`   | `bgBasicBlue` | `68` 
 | ![bgBasicPurple](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgBasicPurple.png)  | `#4F1A66`   | `bgBasicPurple` | `69`
+| ![bgTilesWhite](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesWhite.png)  | `#646155`   | `bgTilesWhite` | `82` 
+| ![bgTilesGrey](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesGrey.png)  | `#464646`   | `bgTilesGrey` | `83` 
+| ![bgTilesBlack](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesBlack.png)  | `#2A2A2A`   | `bgTilesBlack` | `84` 
+| ![bgTilesRed](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesRed.png)  | `#4E2F2D`   | `bgTilesRed` | `85` 
+| ![bgTilesOrange](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesOrange.png)  | `#4E3D2D`   | `bgTilesOrange` | `86` 
+| ![bgTilesYellow](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesYellow.png)  | `#4E482D`   | `bgTilesYellow` | `87` 
+| ![bgTilesGreen](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesGreen.png)  | `#334B32`   | `bgTilesGreen` | `88` 
+| ![bgTilesCyan](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesCyan.png)  | `#2D4E4D`   | `bgTilesCyan` | `89` 
+| ![bgTilesBlue](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesBlue.png)  | `#2D3E4F`   | `bgTilesBlue` | `90` 
+| ![bgTilesPurple](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/bgTilesPurple.png)  | `#423758`   | `bgTilesPurple` | `91` 
 
 ### Blocks with current colors  
 
