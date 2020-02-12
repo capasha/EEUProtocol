@@ -147,8 +147,8 @@ Occurs when a block is placed
 | `2`  | `Integer`   | Y                  | The Y coordinate
 | `3`  | `Integer`   | ID                 | The block ID
 
-* Portal
-Additional values for placed portals
+* Portal  
+Additional values for placed portals  
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
@@ -157,8 +157,8 @@ Additional values for placed portals
 | `6`  | `Integer`   | Target             | The target
 | `7`  | `Boolean`   | Flipped            | Flipped or not
 
-* Sign
-Additional values for placed signs
+* Sign  
+Additional values for placed signs  
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
