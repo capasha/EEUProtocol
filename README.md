@@ -56,7 +56,7 @@ Occurs when a player's edit is modified
 | `0`  | `Integer`   | ID                 | The player's ID
 | `1`  | `Boolean`   | Can Edit           | Whether the player can edit or not
 
-### <a id="rm-cangod">"CanEdit"</a>
+### <a id="rm-cangod">"CanGod"</a>
 Occurs when a player's god mode is modified
 
 | ID   | Type        | Name               | Description
@@ -147,7 +147,7 @@ Occurs when a block is placed
 | `2`  | `Integer`   | Y                  | The Y coordinate
 | `3`  | `Integer`   | ID                 | The block ID
 
-### "Portal"
+* Portal
 Additional values for placed portals
 
 | ID   | Type        | Name               | Description
@@ -157,7 +157,7 @@ Additional values for placed portals
 | `6`  | `Integer`   | Target             | The target
 | `7`  | `Boolean`   | Flipped            | Flipped or not
 
-### "Sign"
+* Sign
 Additional values for placed signs
 
 | ID   | Type        | Name               | Description
