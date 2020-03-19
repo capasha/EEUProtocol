@@ -45,7 +45,7 @@ Occurs when you read SelfInfo
 | `...`  | `Object`  | World Info         | Read world information
 
 Example: loop through Worlds, then read through each object.  
-This will return: WorldID, WorldTitle, WorldPlays.
+This will return: WorldID, WorldTitle, WorldPlays, Hidden or not.
 
 ## <a id="receive-messages-conn">Receive Messages from Connection</a>    
 
