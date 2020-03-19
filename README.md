@@ -1,6 +1,6 @@
 # Everybody Edits Universe Messages Protocol
 This repository contains documentation on the EEUniverse protocol (By Jesse) based on the [Everybody Edits Universe](http://ee-universe.com) API.  
-Protocol Update: 2019-11-22  
+Protocol Update: 2020-03-19 
 Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the protocol.  
 
 ## Table of contents
@@ -30,6 +30,7 @@ Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the p
 - [Send Messages Connection](#send-messages)
   - [test](#sm-test)
 
+## <a id="receive-messages-client">Receive Messages from Client</a>    
 
 ### <a id="rm-selfinfo">"SelfInfo"</a>
 Occurs when you read SelfInfo
@@ -47,6 +48,8 @@ Occurs when you read SelfInfo
 
 Example: loop through Worlds, then read through each object.  
 This will return: WorldID, WorldTitle, WorldPlays.
+
+## <a id="receive-messages-conn">Receive Messages from Connection</a>    
 
 ### <a id="rm-canedit">"CanEdit"</a>
 Occurs when a player's edit is modified
@@ -261,9 +264,10 @@ Occurs when a player moves
 | `25` | `Double`    | Vertical Force     | The vertical reaction force
 | `26` | `Integer`   | Grid X             | The X coordinate of the block the player is in
 | `27` | `Integer`   | Grid Y             | The Y coordinate of the block the player is in
-| `28` | `Boolean`   | Pressed Space      | Whether the player pressed space or not
-| `29` | `Double`    | Space Timestamp    | When the player pressed space
-| `30` | `Boolean`   | God Mode           | Whether the player is in god mode or not
+| `28` | `Integer`   | Unknown             | Unknown
+| `29` | `Boolean`   | Pressed Space      | Whether the player pressed space or not
+| `30` | `Double`    | Space Timestamp    | When the player pressed space
+| `31` | `Boolean`   | God Mode           | Whether the player is in god mode or not
 
 Indexes `12` to `17` contain the `X` and `Y` coordinates (in order) of the blocks the player touch during movement.
 
@@ -302,3 +306,8 @@ Occurs when a zone is deleted
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The zone's ID
+
+
+## <a id="send-messages">Send Messages Connection</a>  
+
+
