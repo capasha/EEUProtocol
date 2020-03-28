@@ -24,6 +24,7 @@ Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the p
   - [PlayerJoin](#rm-playerjoin)
   - [PlayerMove](#rm-playermove)
   - [PlayerSmiley](#rm-playersmiley)
+  - [Won](#rm-won)
   - [ZoneCreate](#rm-zonecreate)
   - [ZoneEdit](#rm-zoneedit)
   - [ZoneDelete](#rm-zonedelete)
@@ -276,6 +277,13 @@ Occurs when a player changes their smiley
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The player's ID
 | `1`  | `Integer`   | Smiley ID          | The smiley's ID
+
+### <a id="rm-won">"Won"</a>
+Occurs when a player touch the crown
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
 
 ### <a id="rm-zonecreate">"ZoneCreate"</a>
 Occurs when a zone is created
