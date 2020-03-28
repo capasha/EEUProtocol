@@ -15,7 +15,7 @@ Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the p
   - [ChatInfo](#rm-chatinfo)
   - [ChatOld](#rm-chatold)
   - [Clear](#rm-clear)
-  - [RoomConnect](#rm-roomconnect)
+  - [RoomConnect/Init](#rm-roomconnect)
   - [PlaceBlock](#rm-placeblock)
     - [Sign](#rm-placesign)
   - [PlayerAdd](#rm-playeradd)
@@ -115,7 +115,7 @@ Occurs when `/bgcolor hexcolor` is used.
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | UintColor          | The Color is sent as uint color.
 
-### <a id="rm-roomconnect">"RoomConnect"</a>
+### <a id="rm-roomconnect">"RoomConnect/Init"</a>
 Occurs when you connect to a world
 
 | ID   | Type        | Name               | Description
