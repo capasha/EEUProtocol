@@ -1,6 +1,6 @@
 # Everybody Edits Universe Messages Protocol
-This repository contains documentation on the EEUniverse protocol (By Jesse) based on the [Everybody Edits Universe](http://ee-universe.com) API.  
-Protocol Update: 2020-03-19 
+This repository contains documentation on the [EEUniverse SDK (By Jesse)](https://github.com/EEUniverse) based on the [Everybody Edits Universe](http://ee-universe.com) API.  
+Protocol Update: 2020-03-29
 Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the protocol.  
 
 ## Table of contents
@@ -17,13 +17,14 @@ Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the p
   - [Clear](#rm-clear)
   - [RoomConnect/Init](#rm-roomconnect)
   - [PlaceBlock](#rm-placeblock)
-    - [Sign](#rm-placesign)
   - [PlayerAdd](#rm-playeradd)
   - [PlayerExit](#rm-playerexit)
   - [PlayerGod](#rm-playergod)
   - [PlayerJoin](#rm-playerjoin)
   - [PlayerMove](#rm-playermove)
   - [PlayerSmiley](#rm-playersmiley)
+  - [Reset](#rm-reset)
+  - [Teleport](#rm-teleport)
   - [Won](#rm-won)
   - [ZoneCreate](#rm-zonecreate)
   - [ZoneEdit](#rm-zoneedit)
@@ -277,6 +278,20 @@ Occurs when a player changes their smiley
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The player's ID
 | `1`  | `Integer`   | Smiley ID          | The smiley's ID
+
+### <a id="rm-reset">"Reset"</a>
+Occurs when the world get reset
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+
+### <a id="rm-teleport">"Teleport"</a>
+Occurs when a user get teleported
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
 
 ### <a id="rm-won">"Won"</a>
 Occurs when a player touch the crown
