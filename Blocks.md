@@ -72,6 +72,8 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![gravityDot](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravityDot.png)  | `#000000`   | `gravityNone` | `16` 
 | ![gravitySlow](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/gravitySlow.png)  | `#000000`   | `gravitySlow` | `71` 
 | ![solid_black](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/solid_black.png)  | `Transparency`   | `solid_black` | `12` 
+| ![secret_passage](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/secret_passage.png)  | `Transparency`   | `secret_passage` | `95` 
+| ![clear_glass](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/clear_glass.png)  | `Transparency`   | `clear_glass` | `96` 
 | ![woodsigns](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/woodsign.png)  | `Transparency`   | `signWood` | `55` 
 | ![woodsigns](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/redsign.png)  | `Transparency`   | `signRed` | `56` 
 | ![woodsigns](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/greensign.png)  | `Transparency`   | `signGreen` | `57` 
@@ -81,6 +83,9 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![godmode](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/godmode.png)  | `Transparency`   | `godmode` | `17` 
 | ![crown](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/crown.png)  | `Transparency`   | `crown` | `70` 
 | ![portal](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/portal.png)  | `Transparency`   | `portal` | `59` 
+| ![global](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/global.png)  | `Transparency`   | `global` | `92` 
+| ![multijump](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/multijump.png)  | `Transparency`   | `multijump` | `93`
+| ![highjump](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/highjump.png)  | `Transparency`   | `highjump` | `94`
 
 ### <a id="model-blocks">Background Blocks</a>
 
