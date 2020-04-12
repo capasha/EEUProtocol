@@ -145,10 +145,11 @@ Occurs when a block is placed
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `0`  | `Integer`   | Layer              | 0 For background and 1 foreground.
-| `1`  | `Integer`   | X                  | The X coordinate
-| `2`  | `Integer`   | Y                  | The Y coordinate
-| `3`  | `Integer`   | ID                 | The block ID
+| `0`  | `Integer`   | ID                 | Your ID
+| `1`  | `Integer`   | Layer              | 0 For background and 1 foreground.
+| `2`  | `Integer`   | X                  | The X coordinate
+| `3`  | `Integer`   | Y                  | The Y coordinate
+| `4`  | `Integer`   | ID                 | The block ID
 
 * Portal  
 Additional values for placed portals  
