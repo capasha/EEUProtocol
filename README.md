@@ -145,7 +145,7 @@ Occurs when a block is placed
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `0`  | `Integer`   | ID                 | Your ID
+| `0`  | `Integer`   | PLayer ID          | Players ID
 | `1`  | `Integer`   | Layer              | 0 For background and 1 foreground.
 | `2`  | `Integer`   | X                  | The X coordinate
 | `3`  | `Integer`   | Y                  | The Y coordinate
