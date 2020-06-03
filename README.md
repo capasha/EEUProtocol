@@ -1,6 +1,6 @@
 # Everybody Edits Universe Messages Protocol
 This repository contains documentation on the [EEUniverse SDK (By Jesse)](https://github.com/EEUniverse) based on the [Everybody Edits Universe](http://ee-universe.com) API.  
-Protocol Update: 2020-03-29
+Protocol Update: 2020-06-03
 Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the protocol.  
 
 ## Table of contents
@@ -15,6 +15,7 @@ Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the p
   - [ChatInfo](#rm-chatinfo)
   - [ChatOld](#rm-chatold)
   - [Clear](#rm-clear)
+  - [Effect](#rm-effect)
   - [RoomConnect/Init](#rm-roomconnect)
   - [PlaceBlock](#rm-placeblock)
   - [PlayerAdd](#rm-playeradd)
@@ -24,6 +25,7 @@ Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the p
   - [PlayerMove](#rm-playermove)
   - [PlayerSmiley](#rm-playersmiley)
   - [Reset](#rm-reset)
+  - [Switch](#rm-switch)
   - [Teleport](#rm-teleport)
   - [Won](#rm-won)
   - [ZoneCreate](#rm-zonecreate)
@@ -156,18 +158,40 @@ Additional values for placed portals
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `4`  | `Integer`   | Rotation           | The rotation
-| `5`  | `Integer`   | Id                 | The id
-| `6`  | `Integer`   | Target             | The target
-| `7`  | `Boolean`   | Flipped            | Flipped or not
+| `5`  | `Integer`   | Rotation           | The rotation
+| `6`  | `Integer`   | Id                 | The id
+| `7`  | `Integer`   | Target             | The target
+| `8`  | `Boolean`   | Flipped            | Flipped or not
 
 * Sign  
 Additional values for placed signs  
 
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
-| `4`  | `String`    | Text               | The sign's text
-| `5`  | `Integer`   | Form               | The sign's orientation
+| `5`  | `String`    | Text               | The sign's text
+| `6`  | `Integer`   | Form               | The sign's orientation
+
+* Jump x times
+Additional values for placed Jump x times blocks
+
+| ID        | Type        | Name               | Description
+| ---       | ---         | ----               | -----------
+| `5`       | `Integer`   | Count              | Jump count (-1 = Infinite)
+
+* Jump Height
+Additional values for placed Jump Height blocks
+
+| ID        | Type        | Name               | Description
+| ---       | ---         | ----               | -----------
+| `5`       | `Integer`   | Count              | Jump height
+
+* Switch  
+Additional values for placed Switches
+
+| ID        | Type        | Name               | Description
+| ---       | ---         | ----               | -----------
+| `5`       | `Integer`   | Channel            | The id of the switch (-1 = reset all switches)
+| `..6..`   | `Boolean`   | Inverted           | If the switch is door or gate
 
 ### <a id="rm-playeradd">"PlayerAdd"</a>
 Occurs when initializing current players in the world
@@ -279,6 +303,25 @@ Occurs when a player changes their smiley
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The player's ID
 | `1`  | `Integer`   | Smiley ID          | The smiley's ID
+
+
+### <a id="rm-switch">"SwitchLocal"</a> - (MessageType)32
+Occurs when you touch a switch
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `Boolean`   | Switch State       | The switch state enabled/disabled
+| `2`  | `Integer`   | Switch Channel     | The channel id of the Switch.
+
+### <a id="rm-effect">"effect"</a> - (MessageType)31
+Occurs when the world get reset
+
+| ID   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `Boolean`   | Effect Id          | The id of the effect, 2 = Double jump, 1 = Jump Height.
+| `2`  | `Integer`   | Switch Channel     | The channel id of the Switch.
 
 ### <a id="rm-reset">"Reset"</a>
 Occurs when the world get reset

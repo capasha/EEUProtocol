@@ -86,6 +86,9 @@ This is the list of current EEU blocks their image, hexadecimal color, name and 
 | ![global](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/global.png)  | `Transparency`   | `global` | `92` 
 | ![multijump](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/multijump.png)  | `Transparency`   | `multijump` | `93`
 | ![highjump](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/highjump.png)  | `Transparency`   | `highjump` | `94`
+| ![switch](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/local_switch.png)  | `Transparency`   | `switch` | `98`
+| ![switchReset](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/local_reset.png)  | `Transparency`   | `switchReset` | `99`
+| ![switchReset](https://github.com/capasha/EEUProtocol/blob/master/images/blocks/local_door.png)  | `Transparency`   | `switchDoor` | `100`
 
 ### <a id="model-blocks">Background Blocks</a>
 
