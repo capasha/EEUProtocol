@@ -312,9 +312,17 @@ Occurs when you touch a switch
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The player's ID
 | `1`  | `Boolean`   | Switch State       | The switch state enabled/disabled
-| `2`  | `Integer`   | Switch Channel     | The channel id of the Switch.
+| `2`  | `Integer`   | Switch Channel     | The channel id of the switch
 
-### <a id="rm-effect">"effect"</a> - (MessageType)31
+If a `switchReset` with all channels is hit, it will execute an event
+
+| ID   | Type        | Name / Value       | Description
+| ---  | ---         | ----               | -----------
+| `0`  | `Integer`   | ID                 | The player's ID
+| `1`  | `Boolean`   | `false`            | The switch state enabled/disabled
+| `...` | `Integer[]` | Switch Channels   | The channels that are reset
+
+### <a id="rm-effect">"Effect"</a> - (MessageType)31
 Occurs when the world get reset
 
 | ID   | Type        | Name               | Description
