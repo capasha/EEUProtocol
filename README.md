@@ -319,7 +319,7 @@ If a `switchReset` with all channels is hit, it will execute an event
 | ID   | Type        | Name / Value       | Description
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | The player's ID
-| `1`  | `Boolean`   | `false`            | The switch state enabled/disabled
+| `1`  | `Boolean`   | Switch State       |   The switch state enabled/disabled
 | `...` | `Integer[]` | Switch Channels   | The channels that are reset
 
 ### <a id="rm-effect">"Effect"</a> - (MessageType)31
