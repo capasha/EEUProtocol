@@ -1,5 +1,8 @@
 # Everybody Edits Universe Messages Protocol
-This repository contains documentation on the [EEUniverse SDK (By Jesse)](https://github.com/EEUniverse) based on the [Everybody Edits Universe](http://ee-universe.com) API.  
+This repository contains documentation on the [EEUniverse SDK (By Jesse)](https://github.com/EEUniverse) based on the [Everybody Edits Universe](http://ee-universe.com) API.
+
+The most updated protocol is now hosted on [lucifierx website](https://luciferx.net/eeu/protocol).  
+
 Protocol Update: 2020-06-03
 Use [EEUProtocolTool](https://github.com/capasha/EEUProtocolTool) to check the protocol.  
 
