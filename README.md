@@ -127,13 +127,13 @@ Occurs when you connect to a world
 | ID   | Type        | Name               | Description
 | ---  | ---         | ----               | -----------
 | `0`  | `Integer`   | ID                 | Your ID
-| `1`  | `String`    | Owner Username     | The world owner's username
+| `1`  | `String`    | Username           | Your username
 | `2`  | `???`       | ???                | ???
 | `3`  | `???`       | ???                | ???
 | `4`  | `Integer`   | X                  | Your X coordinate
 | `5`  | `Integer`   | Y                  | Your Y coordinate
 | `6`  | `String`    | Title              | The world's title
-| `7`  | `String`    | Username           | Your username
+| `7`  | `String`    | Owner Username     | The world owner's username
 | `8`  | `Integer`   | Background Color   | The world's background color
 | `9`  | `Integer`   | World Width        | The world's width
 | `10` | `Integer`   | World Height       | The world's height
